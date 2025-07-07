@@ -1,7 +1,7 @@
 
 ---
 
-```markdown
+
 # 🗨️ Bantr Chat Application
 
 **Bantr** is a full-stack, real-time web chat platform built with the *MERN* stack (MongoDB, Express, React, Node.js). It enables users to securely register, log in, manage profiles, and exchange instant messages and images. Designed for individuals, teams, and communities seeking a modern, responsive, and customizable chat experience.
@@ -95,50 +95,45 @@
 
 ---
 
-## 📦 Installation
+### 📦Installation
 
-### 1. Clone the Repository
+1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/bantr.git
+  git clone https://github.com/your-username/bantr.git
 cd bantr
 ```
-
-### 2. Install Dependencies
+2. Install dependencies
 
 ```bash
-npm install
+ npm install
 ```
 
-### 3. Configure Environment Variables
+3. Configure environment variables
+Create a .env file inside the backend/ directory and add all required variables (see Environment Variables).
 
-Create a `.env` file in the `backend/` directory (see [Environment Variables](#-environment-variables)).
-
-### 4. (Optional) Seed the Database
+4. (Optional) Seed the database with sample users
 
 ```bash
-cd backend
+  cd backend
 node src/seeds/user.seed.js
 cd ..
 ```
 
-### 5. Start Backend Server
+5. Start the backend server
 
 ```bash
-npm run start
+  npm run start
 ```
 
-### 6. Start Frontend Dev Server
+6. Start the frontend development server
 
 ```bash
-npm run dev --workspace frontend
+  npm run dev --workspace frontend
 ```
 
-### 7. Open in Browser
-
-Visit [http://localhost:5173](http://localhost:5173) to use Bantr locally.
-
----
+7. Open the app in your browser
+Visit http://localhost:5173 to use Bantr locally.
 
 ## 🔐 Environment Variables
 
@@ -249,6 +244,3 @@ Licensed under the [MIT License](LICENSE).
 ---
 
 
-```
-
-Let me know if you’d like this split into separate frontend/backend READMEs or if you want a Chinese version too!
